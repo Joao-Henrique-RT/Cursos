@@ -1,0 +1,15 @@
+.formatacao{
+    /*Comando color adiciona cor*/
+    color: #4AE81A;
+    /*Altera o tamanho da fonte*/
+    font-size: 30px;
+    /*Define uma familia de fontes*/
+    /*Olhar fontes no W3C*/
+    /*Foram apresentados 3 tipos de fontes diferentes, caso o usuário não tenha
+    essa fonte no computador dele, o navegador irá colocar a 2 fonte, e seguindo*/
+    font-family: "Times New Roman", Times, serif;
+
+}
+/*Pesquisar cores HTML online para ter mais cores disponíveis*/
+/*#86B404 é um código hexadecimal para representar uma cor, o navegador 
+interpreta esse código e adiciona uma correspectiva*/

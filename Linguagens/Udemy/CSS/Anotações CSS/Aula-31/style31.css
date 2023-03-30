@@ -1,0 +1,29 @@
+#conteudo{
+   /* border: 7px dotted red;*/
+    /*Border, cria uma borda na tag que foi selecionada, possui três valores
+     primeiro valor é a expessura da borda, podendo ser medida em pixels
+    segundo valor é o tipo da borda, solid, dotted, dashed, groove, etc
+     o terceiro valor é a cor da borda, neste caso, vermelha */
+    
+     border-color: red orange blue blueviolet;
+    /*Foram alterados as cores de cima, direita, baixo e esquerda*/
+    
+    border-width: 10px 8px 6px 4px;
+    /*Foram modificadas as bordas de cima, direit,a inferior e esquerda*/
+    
+    border-style: outset solid dotted outset;
+    /*Cada lado da borda ficou com um estilo diferente de borda*/
+    }
+
+/*Outros estilos de borda*/
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}

@@ -1,0 +1,16 @@
+/*Aula 28- Seletores CSS*/
+/*Estrutura CSS:
+ P (TAG) Seletor
+ {} Onde será declarado o comando
+ Color (Comando)
+red (Valor do comando)
+; (declaração)
+
+ p {
+     color:red;
+ }
+
+ body {
+     background-color: blue;
+ }
+ */

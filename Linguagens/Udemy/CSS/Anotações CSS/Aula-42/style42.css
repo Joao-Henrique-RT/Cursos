@@ -1,0 +1,35 @@
+body{
+    background-color: yellow;
+}
+
+#principal{
+    width: 920px; 
+    
+}
+
+.noticia{
+    background-color: #e5e5e5;
+    padding: 5px;
+    width: 280px;
+    margin: 5px;
+    float: left;/*Para começarmos da caixa da esquerda*/
+}
+
+div h2{
+    color: brown;
+}
+div p{
+    text-align: justify;
+}
+
+.imagem_galeria{
+    background-color: aqua;
+    width: 265px;
+    padding: 5px;
+    float: left;
+    margin: 10px
+}
+
+.clear{
+    clear: both;
+}

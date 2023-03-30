@@ -1,0 +1,28 @@
+div{
+    font-size: 60px;
+}
+
+.texto{
+    /*Outras medidas
+    PIXEL (px) -> Medida fixa
+    % -> Tamanho relativo ao tamanho padrão adotado pelos browsers
+    em -> Tamanho relativo ao container pai
+
+    Tamanho padrão de texto dos navegadores , 16px
+    */
+    /*font-size: 40px;*/
+    font-size: 2em;
+    /*Com 1em a fonte que está contida dentro da div não ficará menor ou maior, ficará igual ao tamanho da fonte
+     da div, pois 1em equivale ao tamanho padrão da div pai*/
+     
+     /*TAG "pai" é aonde as tags estão contidas dentro*/
+
+     /*2em é justamente o dobro do tamanho da font da DIV pai*/
+}
+
+.texto2{
+    /*font-size: 15px;*/
+    /*No caso irá mudar de tamanho pois estamos mexendo exclusivamente no "filho" da div "pai", com uma unidade fixa*/
+    font-size: 1em;
+    /*1em possui o mesmo tamanho da DIV pai*/
+}

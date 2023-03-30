@@ -1,0 +1,36 @@
+/*
+    Aula 29- Classes e IDs
+    para declarar uma classe no CSS devemos começar a declaração com um .
+    
+    exemplo
+    .menu
+    .logo
+    .fundo{color:red};
+ 
+    Para identificar um ID utilizamos o sinal de #, ele funciona com a mesma finalidade
+    que a classe, porém só pode ser declarado uma vez por página, bastante utilizado com 
+    Java Script 
+    ID são mmais utilizados para estruturar um site.
+ */
+ body{
+     background-color: gray;
+ }
+ #h2{
+    color: yellow;
+}
+
+.Aula_29{
+    color:aqua;
+    
+}
+#cabecalho{
+    background-color: aquamarine;
+}
+#conteudo-principal{
+    background-color: blueviolet;
+}
+.Colunas{
+    color: red;
+    border: solid 2px green;
+    
+}

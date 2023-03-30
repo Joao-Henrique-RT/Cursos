@@ -1,0 +1,68 @@
+/*
+O seletor de :root representa o elemento <html> na página HTML.
+
+Para esse tipo de tarefa, uma melhor prática é definir um conjunto de variáveis CSS globais no elemento :root.
+
+Aqui, você define três variáveis de cor anexadas à raiz da página.
+*/
+:root{
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+*{
+    color: var(--fontColor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family: monospace;
+    background: var(--bg);
+}
+
+ul{
+    font-family: Helvetica, sans-serif;
+}
+
+li{
+    list-style: circle;
+}
+
+.list{
+    list-style: square;
+}
+
+.light-theme{
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white)
+}
+
+.dark-theme{
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--green);
+    --btnFontColor: var(--black);
+}
+.btn{
+    position: absolute;
+    top: 20px;
+    left: 95%;
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    cursor: pointer;
+
+}
+/*
+Para melhorar a aparência do botão, adicione um seletor de pseudoclasse, btn:focus, após o seletor de botão.
+
+Ao definir a regra de outline-style como none, você elimina um contorno retangular quando o botão é selecionado (recebe foco).*/
+.btn:focus{
+    outline-style: none;
+}

@@ -1,0 +1,88 @@
+#principal{
+    border: 3px solid red;
+    background: green;
+    
+}
+
+.conteudo{
+    background-color: blue;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    float: left;
+    
+    
+    /*As 3 caixas ficaram alinhadas a esqeurda, uma ao lado da outra "Disputando a posição"
+    o conteúdo 1 fica alinhado a esqeurda, o conteúdo 2 fica ao lado do primeiro pois não há mais espaço
+    para ele ir para o lado, o conteúdo 3 fica ao lado do conteúdo 2 pelo mesmo motivo*/
+
+    /*Um elemento com propriedade float precisa ter espaço para ser colocado em um lugar que queira
+    Caso a não tenha espaço para ficar a esquerda por exemplo, ele será mandado para o espaço ao lado que caiba
+    */
+    margin: 5px;
+    /*Margin para separar as caixas umas das outras*/
+}
+
+.clear{
+    clear: left;
+  /*Porpiedade faz com que o fluxo flutuante seja limpo, se o float estiver para left devemos dar um clear
+  para a esquerda, o mesmo para direita, ou Both (Ambos)*/
+}  
+    /*Sem o float esta caixa amarela fica disposta como se as outras não existissem*/
+
+
+/*.conteudo1{
+    background-color: rebeccapurple;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    float: left;*/
+    
+    /*Com a porpiedade float (left ou Right) podemos fazer com que os elementos flutuem
+    para a esquerda ou direita.
+    Caso tenhamos um elemento com float e um elemento normal em uma mesma posição o elemento com float
+    irá sobrepor o outro elemento.
+    Para os elementos que estão sendo sobrepostos, é como se não existisse o elemento com a propriedade float*/
+    
+  .azul{
+    background: blue;
+    height: 75px;
+    width: 75px;
+    float: left;
+  }
+  .branca{
+    background-color: whitesmoke;
+    height: 75px;
+    width: 75px;
+    float:left
+  }
+
+  .vermelha{
+    background-color: red;
+    height: 75px;
+    width: 75px;
+    float:left;
+  }
+  .clear{
+    clear: both;
+  }
+  #principal2{
+    background-color: aqua;
+    text-align: center;
+    height: 500px;
+  }
+  
+  .noticias{
+    border: solid 1px black;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 0px 10px;
+  }
+  .btn-vejamais{
+    background-color: blueviolet;
+    height: 30px;
+    width: 40px;
+   
+  }

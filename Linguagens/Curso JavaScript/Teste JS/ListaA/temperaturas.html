@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperaturas JavaScript</title>
+</head>
+<style>
+  
+    body{
+        text-align: center;
+        background-color: rgba(127, 255, 212, 0.397);
+        
+    }
+    .convercao1, .convercao2, .convercao3{
+        border: black solid 3px;
+        width: 500px;
+        margin-left: 700px;
+        padding: 10px 0 ;
+        border-radius: 5px;
+    }
+</style>
+<body>
+    <h1>Converção</h1>
+    <div class="convercao1">
+    
+    <p>Celsius para Fahrenheit</p>
+
+    <p>
+        <input type="text" name="" id="cel" placeholder="Digite um número">
+    </p>
+   
+    <button class="converter" onclick="converterC(cel.value)">Converter</button>
+</div>
+<br>
+<div class="convercao2">
+    <p>Fahrenheit para Celsius</p>
+    <p>
+        <input type="text" name="" id="fah" placeholder="Digite um número">
+    </p>
+    <button onclick="converterF(fah.value)">Converter</button>
+</div>
+<br>
+<div class="convercao3">
+    <p>Celsius para Kelvin</p>
+    <p>
+        <input type="text" name="" id="kel" placeholder="Digite um número">
+    </p>
+    <button onclick="converterK(kel.value)">Converter</button>
+</div>
+</body>
+
+
+<script>
+       fahrenheit = int;
+    function converterC(cel){
+        fahrenheit = (9*parseInt(cel)+160)/5
+        alert("A temperatura em fahrenheit é: "+ fahrenheit+ "°F");
+    }
+
+    celsius = int;
+    function converterF(fah){
+        celsius = ((fah-32)*5/9);
+        alert("A temperatura em Celsius é: "+celsius+ "°C");
+    }
+
+    kelvin = int;
+    function converterK(kel){
+        kelvin = (parseInt(kel) + 273.15);
+        alert("A temperatura em kelvin é: "+kelvin+ "°K")
+    }
+</script>
+</html>

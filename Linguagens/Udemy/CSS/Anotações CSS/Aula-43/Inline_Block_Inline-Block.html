@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, Block, Inline-block</title>
+    <link rel="stylesheet" href="style43.css">
+</head>
+<body>
+    <!--Elementos do tipo Block ou caixa, são aqueles que ocupam
+    toda a largura da tela e quando houver mais de um, são dispostos um
+em baixo do outro. Exemplos: P, H1, table-->
+
+<!--Elementos Inline são dispostos em linha e sua largura é de acordo com
+o seu conteúdo
+Exemplos: a, img, span-->
+
+<!--Elementos inline_block, uma abordagem híbrida, os elementos tem sua 
+largura levando em conta o conteúdo(inline), porém, ficam um em baixo do outro(block)
+
+display: inline_Block-->
+
+<h1 class="borda">Bloco 1</h1>
+<h1 class="borda">Bloco 2</h1>
+<!--Ocupam todo o Espaço da tela, colocando no CSS a propriedade Display: Inline, ficarão
+um do lado do outro dispostos conforme seu conteúdo-->
+
+<span class="borda">Inline 1</span>
+<span class="borda">Inline 2</span>
+<span class="borda">Inline 3</span>
+<!--A classe span é do tipo Inline, os elementos ficam dispostos conforme seu tamanho
+Se quisermos que um elemento span tenha comportamento de bloco podemos usar display: block -->
+
+<br>
+<span class="bordaIN">Inline Block 1, São dispostos conforme o tamanho do seu conteudo, caso não caiba mais o outro elemento na tela, é mandado para baixo</span>
+<span class="bordaIN">Inline Block 2</span>
+<span class="bordaIN">Inline Block 3</span>
+
+</body>
+</html>

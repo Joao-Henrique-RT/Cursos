@@ -1,0 +1,27 @@
+*{
+  
+}
+
+img{
+    width: 150px;
+    padding: 10px;
+}
+#Topo{
+    background-color: aqua;
+}
+#conteudo{
+    background-color: rgba(180, 28, 28, 0.205);
+}
+
+.Produtos{
+    background-color: rgba(45, 45, 223, 0.61);
+    margin: 10px;
+}
+
+#rodape{
+    background-color: green;
+}
+
+#Assinatura{
+    background-color: rgb(228, 24, 58);
+}

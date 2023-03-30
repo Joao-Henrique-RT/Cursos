@@ -1,0 +1,44 @@
+/*.fundo{
+    Define cor de fundo
+    background-color: aquamarine;
+    color: red;
+}
+*/
+
+h1{
+    /*Caso a imagem não possua tamanho suficiente para cobrir a página, 
+    ela será repetida até cobrir toda a página*/
+    background-image: url('yoshi.jpg');
+
+    /*Com esta propriedade e com o argumento "No-repeat" a 
+    imagem não será mais repetida.
+     Com o argumento repeat, a imagem será repetida até cobrir tudo
+     tanto na horizontal quanto na vertical
+      Com o argumento Repeat-X a imagem só será repetida na horizontal
+      Com o argumento Repeat-Y a imagem só será repetida na vertical*/
+    background-repeat: repeat-x;
+
+    /*Com a propriedade attachment e argumento FIXED, a imagem fica fixa
+    como plano de fundo, não importando para onde o usuário rolar a tela
+    A imagem sempre estará aparecendo
+     Com a propriedade Scroll a imagem irá sew comportar junto com o Scroll
+     do mouse, ficando em seu local de origem
+
+    */
+    background-attachment: scroll;
+
+
+    /*Define a posição da imagem dentro da TAG onde ela está:
+        É preenchida com dois argumentos, um indica o Eixo X e o outro o Eixo Y
+
+    Comandos para Eixo X (Horizontal)
+     Left, Center e Rigth.
+     Comandos para Eixo Y (Vertical) 
+     top, center e Botton*/
+    background-position: center top;
+}
+
+.fundo{
+    /*Fazendo todos os comandos em apenas uma linha*/
+    background: blue url('Mario.png') repeat-x scroll center bottom;
+}

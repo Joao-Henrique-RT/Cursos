@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UNES - Contato</title>
+  </head>
+  <body background="Imagens/fundo2.png">
+    <table border="0" width="900px" align="center">
+      <tr>
+        <td height="72px"><img src="Imagens/logo.png" /></td>
+        <td align="right">
+          <a href="index.html">Home</a> <strong>|</strong>
+          <a href="sobre.html">Quem somos</a> <strong>|</strong>
+          <a href="contato.html">Contato</a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><h1>Entre em contato</h1></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>
+            Etiam finibus enim id dolor semper, quis accumsan sem laoreet. Fusce
+            tempus nibh nunc, in sollicitudin urna tristique non. Fusce
+            facilisis elementum urna malesuada
+          </p>
+          <hr />
+
+          <form>
+            Seu nome:<br />
+            <input type="text" /><br />
+
+            Seu celular:<br />
+            <input type="number" /><br />
+
+            Seu e-mail:<br />
+            <input type="email" name="EmailContato" /><br />
+
+            Assunto:<br />
+            <input type="text" name="assunto" /><br />
+
+            Descrição:<br />
+            <textarea></textarea><br />
+
+            <button class="Enviar" onclick="enviar()">Enviar</button><br />
+          </form>
+
+          <h4 align="center">Todos os direitos reservados</h4>
+        </td>
+      </tr>
+    </table>
+
+    <script>
+      function enviar(){
+        alert("Obrigado pelo seu contato!")
+      }
+    </script>
+  </body>
+</html>

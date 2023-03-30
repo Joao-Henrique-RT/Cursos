@@ -1,0 +1,47 @@
+body{
+    background-color: #007Fc7;
+}
+
+#container{
+    background-color: #fff;
+    width: 800px;
+    margin: 10px auto;/*Para centralizar o container*/
+    padding: 10px;
+    position: relative;
+}
+
+
+/*h1{
+    position: static;Posicionamento padrão aplicado aos elementos
+}*/
+
+p{
+    /*position: static;Posicionamento padrão aplicado aos elementos*/
+    width: 300px;
+   
+}
+
+.relative{
+    border: 1px solid red;
+    position: relative;/*Para usar a propriedade relative, precisamos colocar propriedades de deslocamento */
+    /*top, rigth, bottom, left*/
+    top: 20px;
+}
+
+.absolute{
+    position: absolute;/*Com a posição absoluta o elemento fica disposto de forma como se não existisse para outros elementos*/
+    /*acompanha o rolamento da página*/
+    border: 1px red solid;
+    top: 80px;
+    background-color: #f2f2f2;
+    right: 20px;
+}
+
+.fixed{
+    position: fixed;/*Posicionamento do elemento fica fixo se baseando na janela*/
+    border: 1px blue solid;
+    background: #f2f2f2;
+    bottom: 0px;
+    right: 0px;
+    margin: 0px;
+}

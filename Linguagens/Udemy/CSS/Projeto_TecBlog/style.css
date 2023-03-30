@@ -1,0 +1,160 @@
+/*Formatação padrão*/
+* {
+  margin: 0px;
+  padding: 0;
+}
+
+/*Cor de fundo da página*/
+body {
+  background-color: rgba(197, 197, 197, 0.541);
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+/*---------------------CONTROLE DE FLOAT----------------*/
+.clear {
+  /*clear: both;*/
+}
+/*---------------------CRIAÇÃO E FORMATAÇÃO DA BARRA DE NAVEGAÇÃO----------*/
+.nav_bar {
+  background-color: rgb(255, 196, 0);
+  height: 150px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+/*----------------------FORMATANDO TODOS OS LINKS QUE ESTÃO DENTRO
+                        DA BARRA DE NAVEGAÇÃO------------*/
+
+.link {
+  text-decoration: none;
+}
+.link:link {
+  color: white;
+}
+
+.link:visited {
+  color: white;
+}
+
+.link:hover {
+  color: rgb(255, 196, 0);
+  transition: 0.9s;
+  background: white;
+}
+
+.link {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/*-----------------TAMANHO (NA HORIZONTAL) DOS ITENS DA PÁGINA--------------*/
+.area_total {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+/*---------------FORMATÇÃO DO LOGO DA PÁGINA---------------*/
+#titulo {
+  padding: 25px 0px 10px 0px;
+}
+.branco {
+  color: white;
+}
+
+/*------------------- FORMATAÇÃO DO CAMPO LATERAL DA PÁGINA-----------*/
+.area_lateral {
+  width: 400px;
+  float: right;
+}
+
+/*--------------------FORMATAÇÃO DA ÁREA DE POSTAGEM------------*/
+.area_postagem {
+  margin: 10px;
+  background-color: white;
+  width: 1000px;
+  padding: 20px;
+  float: left;
+}
+
+/*FORMATANDO O H1 DA AREA DE POSTAGEM*/
+.area_postagem h1 {
+  color: rgb(255, 196, 0);
+}
+
+/*FORMATAÇÃO DA IMAGEM DO POST*/
+.img_post {
+  width: 100%;
+}
+
+/*--------------FORMATAÇÃO DA ÁREA LATERAL DE POSTAGEM RECENTE*/
+.post_recente {
+  font-size: 20px;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+}
+
+/*--------------FORMATAÇÃO DA ÁREA LATERAL DE CATEGORIAS*/
+.categorias {
+  font-size: 25px;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+}
+/*DEixado os links dentro de categoria um em baixo do outro*/
+.categorias a {
+  display: block;
+}
+
+/*----------------FORMATAÇÃO DA COR DE FUNDO DPS TITULOS
+                  DA ÁREA DE POST RECENTE E CATEGORIAS */
+.post_recente h3,
+.categorias h3 {
+  background-color: grey;
+  color: rgba(36, 35, 35, 0.822);
+  padding: 5px;
+}
+/*FORMATANDO OS LINKS DAS BARRAS LATERAIS*/
+.area_lateral a {
+  text-decoration: none;
+  color: rgb(255, 196, 0);
+}
+
+/*---------------FORMATAÇÃO DO RODAPÉ DA PÁGINA*/
+.rodape {
+  text-align: center;
+  height: 25px;
+  clear: both;
+  background-color: rgb(255, 0, 0);
+}
+
+/*--------------------FORMATAÇÃO DOS ÍCONES DA PÁGINA*/
+.icon_wpp {
+  rotate: 10deg;
+  width: 50px;
+  position: fixed;
+  bottom: 50px;
+  right: 0px;
+  margin: 0px;
+  animation: movimento 5s infinite;
+}
+@keyframes movimento {
+  50% {
+    transform: rotate(20deg);
+  }
+}
+
+.icon_twitter {
+  rotate: 10deg;
+  width: 50px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 0px;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {
+    transform: rotate(20deg);
+  }
+}

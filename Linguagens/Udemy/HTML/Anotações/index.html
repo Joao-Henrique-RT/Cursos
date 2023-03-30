@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Anotações</title>
+</head>
+
+<body>
+  <!--Formulários-->
+
+  <h2>Login</h2>
+
+  <!--Se estivessemos usando uma linguagem (No caso PHP) podemos usar o Action para 
+    a linguagem pegar os dados e interpreta-los, seja em um banco de dados, etc.-->
+  <form action="processa.php">
+    Login: <br />
+
+    <!--Input, do inglês "Entrada", significa entrada de dados-->
+    <!--Type= tipo de caixa, seja numero, senha, etc.
+        Name, é utilizado para identificar o input em uma linguagem de programação-->
+    <input type="text" name="login" /><br />
+
+    Senha:<br />
+    <!--Tipo password esconde os caracteres da caixa de texto-->
+    <input type="password" name="senha" /><br />
+
+    <!--Value define o texto para a caixa de texto
+         type submit (enviar) faz os dados serem enviados
+        Para enviar os dados e processa-los precisamos de uma linguagem de programação-->
+    <input type="button" value="Logar" />
+  </form>
+<hr>
+  <form>
+    <h2>Cadastre-se</h2>
+
+    Digite seu email:<br />
+    <input type="email" name="login" /><br /><br />
+
+    Sexo: <br />
+    <!--Com este input podemos colocar escolhas ao usuario-->
+    <!--Para selecionarmos apenas um Botão do radio devemos colocar ambos com mesmo name-->
+    <!--Para a linguagem de programção distinguir a opção escolhida pelo usuário utiliozamos o value-->
+    <input type="radio" name="Sexo" value="M" /> Masculino<br />
+    <input type="radio" name="Sexo" value="F" /> Feminino<br /><br />
+
+    Interesses<br />
+    <!--Usamos checkbox para o usuário poder escolher mais de uma opção-->
+    <input type="checkbox" name="interesses" /> Futebol<br />
+    <input type="checkbox" name="interesses" /> Cursos<br />
+    <input type="checkbox" name="interesses" /> Moda<br /><br />
+
+    Estado<br />
+    <!--Permite que o usuário escolha apenas uma opção em uma lista grande-->
+    <select name="estado">
+      <!--Utilizando o name e o value podemos identificar estado e qual estado o usuario
+         cadastrou-->
+      <option value="sp">SP</option>
+      <option value="rj">RJ</option>
+      <option value="mg">MG</option>
+      <option value="pe">PE</option>
+      <option value="ce">CE</option>
+      <option value="ba">BA</option></select
+    ><br /><br />
+
+    Observações: <br />
+    <!--Textarea (área de texto) cria uma area onde o usuário pode escrever algo, deixar sua opinião
+    etc.-->
+    <textarea></textarea><br>
+    <input type="submit"  value="Cadastrar">
+  </form>
+<hr>
+
+<!--Carecteres especiais-->
+<h2>Caracteres especiais<h2>
+    
+    <p>Para utilizar estes caracteres utilizamos este site:<p>
+        <a href="https://www.w3schools.com/html/html_entities.asp"> Entidades w3schools</a><br><br>
+    
+        &lt;p&gt; 
+        <!--&nbsp; define um espaço em branco, não é a maneira mais recomendada, usa-se CSS-->
+        Home &nbsp;&nbsp;&nbsp;&nbsp; - Quem somos - Contato
+        <hr>
+
+
+
+
+</body>

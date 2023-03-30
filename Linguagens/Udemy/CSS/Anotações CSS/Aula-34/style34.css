@@ -1,0 +1,20 @@
+body{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.formatacao{
+    /*text-decoration: underline;*/
+    /*text-decoration: overline;*/
+    text-decoration: line-through;
+}
+.texto{
+    font: bold 40px arial;
+}
+
+.negrito{
+    /*Podemos utilizar "Normal" e "Bold", podemos definir o quanto de negrito nós queremos (de 100 até 900)*/
+    font-weight: 900;
+}
+.italico{
+    font-style: italic;
+}

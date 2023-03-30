@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média JavaScript</title>
+    <script src="app.js"></script>
+</head>
+<style>
+    body{
+        text-align: center;
+        background-color: rgba(127, 255, 212, 0.397);
+    }
+    
+</style>
+<body>
+    <h1>Calculando média</h1>
+
+
+   <P>
+       <input type="number" name="nota1" id="nota1" placeholder="Digite o 1º Num">
+   </P>
+   <P> 
+   <input type="number" name="nota2" id="nota2" placeholder="Digite o 2º Num">
+    </P>
+    <P>
+    <input type="number" name="nota3" id="nota3" placeholder="Digite o 2º Num">
+    </P>
+    <p>
+    <input type="number" name="nota4" id="nota4" placeholder="Digite o 2º Num">
+    </p>
+    <button class="calcular" onclick="calcular(nota1.value, nota2.value, nota3.value, nota4.value)">Calcular </button>
+    
+
+</body>
+<script>
+    /*
+var  n1 =int = prompt("Digite a primeira nota");
+var n2 = int = prompt("Digite a segunda nota");
+var n3 = int = prompt("Digite a terceira nota");
+var n4 = int = prompt("Digite a quarta nota");
+
+
+var media = (parseInt(n1) + parseInt(n2) + parseInt(n3)+ parseInt(n4))/4;
+console.log("Sua média final é: "+ media);*/
+media = float;
+function calcular(nota1, nota2, nota3, nota4){
+    
+    media = (parseFloat(nota1)+ parseFloat(nota2)+ parseFloat(nota3)+ parseFloat(nota4))/4;
+  
+    if(media>5){
+    alert("Sua média é: "+media);
+    }//Fim if
+    else{
+        alert(" Sua média é: "+media);
+    }
+}//Fim function
+
+
+
+
+</script>
+</html>

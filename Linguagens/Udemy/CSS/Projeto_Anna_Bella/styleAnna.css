@@ -1,0 +1,41 @@
+body{
+    /*Cor de fundo para caso a imagem de fundo não seja carregada*/
+    background: #d2d2d1 url('Recursos/fundo.png');
+    font: 16px arial, Helvetica, sans-serif;
+}
+#principal{
+    width: 900px;
+ 
+}
+.nav-links {
+    background: #c5c5b2;
+    padding: 18px;
+   
+}
+a{
+    text-decoration: none;
+    color: #4b566a;
+    font-weight: bold;
+   padding: 5px;
+}
+.conteudo img /*Seleciona todas as imagens da classe conteudo*/{
+    border: 10px #c5c5b2 solid ;
+    border-radius: 4%;
+}
+
+.conteudo{
+    background-color: white;
+    text-align: justify;  
+    padding: 5px 10px;  
+}
+h2{
+    text-align: center;
+    
+}
+h1{
+    font-size: 25px;
+    color: #828271;
+}
+
+
+

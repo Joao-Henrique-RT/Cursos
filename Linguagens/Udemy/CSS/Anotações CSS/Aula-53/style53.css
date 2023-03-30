@@ -1,0 +1,79 @@
+/*UNIVERSAL*/
+/*SELECIONA TODOS OS ELEMENTOS DE DENTRO DO ARQUIVO HTML*/
+*{
+    
+    background-color: gray;
+}
+
+/*SELETOR DE TEXTO*/
+/*SELECIONA O TIPO, OU A TAG */
+h1{
+    color: green;
+}
+
+/*SELETOR DE CLASSE*/
+.verde{
+    color: rgb(47, 61, 255);
+}
+
+/*SELETOR DE CLASSE + TAG*/
+/*SÓ SERÁ APLICADA A FORMATAÇÃO DENTRO DE PARAGRAFOS DA CLASSE VERDE*/
+p.verde{
+    color: rgb(255, 0, 0);
+}
+
+/*SELETOR DE ID*/
+/*SELECIONA O ELEMENTO CUJO ID TEM VALOR "CABEÇALHO"*/
+#cabecalho{
+    border: 1px solid blue;
+    color: yellow;
+}
+
+/*SELETOR DE FILHO*/
+/*SELECIONA UM ELEMENTO QUE É FILHO DIRETO DE OUTRO.
+EX:
+*/
+li>a{
+    /*SELECIONA TODOS OS ELEMENTOS A QUE ESTÃO DENTRO DE LI
+    (mas não outros elementos "A" na página)*/
+    text-decoration: none;
+    color: brown;
+}
+
+/*SELETOR DE DESCENDENTE*/
+/*Seleciona quaisquer elementos <a>
+que residem dentro de um elemento
+<li>, mesmo e houver outros
+elementos aninhados entre eles
+*/
+p a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+/*SELETOR DE IRMÃO SUBJACENTE*/
+/*
+Seleciona o primeiro elemento <p>
+depois de qualquer elemento <h1>
+(mas não outros elementos <p>)
+
+*/
+h1+p{
+    color: yellow;
+}
+
+/*SELETOR DE IRMÃO GERAL
+
+Seleciona um elemento que
+é um irmão de outro,
+embora ele não precise ser o
+elemento diretamente
+precedente*/
+
+/*Se houvesse dois elementos <p> que
+fossem irmãos de um elemento <h1>,
+essa regra se aplicaria ao dois*/
+
+h1~p{
+    color: pink;
+}

@@ -1,0 +1,26 @@
+a{
+  padding: 10px;  
+  text-decoration: none;
+}
+/*Ordem certa de estados dos links*/
+
+/*Links não visitados*/
+a:link{
+    color: #b9c941;
+}
+
+/*Links visitados*/
+a:visited{
+    color: #c0c0c0;
+}
+
+/*Links Hover, passar o cursos sobre o link*/
+a:hover{
+    color: #FFF;
+    background: #6d790f;
+}
+
+/*Links ativos, quando clicados*/
+a:active{
+    color: #e4f371;
+}

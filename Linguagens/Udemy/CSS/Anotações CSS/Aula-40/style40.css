@@ -1,0 +1,55 @@
+/*
+Modelo de caixa
+
+
+
+.conteudo{
+    border: red 1px solid;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    Quando utilizamos o PADDING o tamanho dele irá contar
+    aumentar o tamanho  final da caixa, 
+     aumentando o tamanho da box
+    width: 150px;
+    Exemplo a caixa teria 170px, 150 de largura mais os 20 de padding
+   
+    Forma simplificada de declarar o padding
+    
+    padding: 20px 15px 10px 5px;
+    
+    
+    ORDEM:
+    Espaçamento de cima;
+    Espaçamento da esqeurda;
+    espaçamento de baixo;
+    Espaçamento da direita;
+    
+
+padding: 20px;
+Será adicionado 20px em todos os lados
+
+
+Assim como o padding, a margem pode ser declarada de diversas formas
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+margin-right: 20px;
+Serão adicionados 20px de espaço entre as caixas
+
+MARGIN colapse, uma caixa em baixo da outra, com margins diferentes, 
+será priorizado o valor da caixa com valor maior.
+}
+*/
+#noticias{
+    background: blue;
+    padding: 10px;
+    border: 2px solid orange;
+
+}
+h1{
+
+    margin: 0px;/*Por padrão as tags tem uma margem padrão, neste caso zeramos*/
+}
+
