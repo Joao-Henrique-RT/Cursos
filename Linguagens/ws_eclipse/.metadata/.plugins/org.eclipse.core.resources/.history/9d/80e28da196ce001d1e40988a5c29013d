@@ -19,7 +19,7 @@ public class Exercicio_4 {
 		
 		resultado = hora_termino - hora_inicio;
 		
-		System.out.println("O jogo teve de duração "+ resultado + " horas");
+		System.out.println("O jogo durou "+ resultado + " horas");
 		
 		
 	}
