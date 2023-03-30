@@ -1,0 +1,30 @@
+package exercicios_Estrutura_Sequencial;
+import java.util.Scanner;
+public class Exercicio_6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner leia = new Scanner(System.in);
+		
+		double a,b,c, area_triangulo, area_circulo, area_trapezio, area_quadrado,
+		area,retangulo;
+		
+		System.out.println("Digite o primeiro valor");
+		a = leia.nextDouble();
+
+		System.out.println();
+		b = leia.nextDouble();
+		
+		System.out.println();
+		c = leia.nextDouble();
+		
+		
+		area_triangulo = (a*c)/2;
+		System.out.printf("Triângulo: %.2f", area_triangulo);
+		
+		
+		
+	}
+
+}

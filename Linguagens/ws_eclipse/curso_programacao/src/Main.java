@@ -1,0 +1,85 @@
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("Olá mundo!");
+
+		// Tipo de variável Byte, short, int, long, float
+
+		double y = 10.35784;
+		System.out.printf("%.2f%n", y);
+		// Neste caso irá delimitar para duas casas decimais
+		// %N para quebrar a linha (poderia ser também \n)
+		// PrintF está indicando que o que será printado será formatado
+
+		System.out.printf("%.4f%n", y);
+	
+		// Para localizar o dispositivo como se fosse dos estados unidos
+
+		System.out.printf("%.4f%n", y);
+		// Neste caso irá imprimir a casa decimal com ponto ao invés de vírgula
+
+		System.out.printf("RESULTADO = %.4f metros%n", y);
+		// com PrintF a variável Y entrará no lugar de %.4f
+
+		String nome = "Maria";
+		int idade = 35;
+		double renda = 4000.0;
+		System.out.printf("%s tem %d anos e ganha %.2f reais%n", nome, idade, renda);
+		// %f = ponto flutuante
+		// %d = inteiro
+		// %s = texto
+		// %n = quebra de linha
+
+		System.out.println("EXERCÍCIO DE FIXAÇÃO!");
+		
+		String product1 = "Computer";
+		String product2 = "Office Desk";
+		
+		int age = 30;
+		int code = 5290;
+		char gender = 'F';
+		double price1 = 2100.0;
+		double price2 = 650.0;
+		double measure = 53.234567;
+		
+		System.out.println("Produtcs:");
+		System.out.println(product1+", which price is $"+ price1);
+		System.out.println(product2+", which price is $"+price2);
+		System.out.println("Record: "+age+" years old, code "+code+" and gender: "+gender);
+		System.out.printf("Measue: %.8f%n", measure);
+		System.out.printf("Rouded  %.3f%n",measure );
+		Locale.setDefault(Locale.US);
+		System.out.printf("US decimal point %.3f%n ",measure);
+		
+		//Casting é uma técnica de coversão explícita dos dados em java
+		
+		double a =10;
+		int b;
+		//b = a; // neste caso o java aponta um erro pois são variaveis de tipos diferentes
+		
+		b = (int) a; // fazemos com que o java execute independente de int para double
+		
+		
+		//sc.nextLine (lê a linha inteira, não importando espaços);
+		
+		System.out.println("FUNÇÕES MATEMÁTICAS EM JAVA");
+		a  = Math.sqrt(b); //Variável A recebe a raiz quadrada de b
+		a = Math.pow(a, b); //Variável A recebe o resultado de A elevado a B
+		a = Math.abs(b); //Variavel A recebe o valor absoluto de B
+		
+		//java.lang.math pesquisar na web para mais funções
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
