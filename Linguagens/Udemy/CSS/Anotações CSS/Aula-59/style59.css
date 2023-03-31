@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background-color: #f2f2f2;
+}
+
+/*LAYOUTS LÍQUIDOS UTILIZAM PORCENTAGEM*/
+
+#container {
+    width: 85%; /*85% de toda a tela*/
+    margin: 10px auto 0px auto; /*Para deixar a div centralizada*/
+    background: #fff;
+    min-width: 720px;
+    /*max-width: 900px;     define uma largura máxima*/ 
+}
+
+#marca{
+    height: 100px;
+    background-color: #9e9e9e;
+    text-align: center;
+    line-height: 100px;
+}
+
+#conteudo{
+   border: solid 1px red;
+    width: 75%; /*Para achar a quantidade de pocentagem necessária pegamos este tamanho, multiplicamos por 100 e dividimos pelo total do container(720px) (Neste caso 700 pixels pois deixamos 20 de espaço)*/
+
+    /*
+    (520*100)/700 = 74,28
+    */
+    /*180 + 520 = 700 + 20 (padding) = Largura total do container*/  
+    float: right;
+}
+
+#conteudo_principal{
+    width: 60%; /*320px -> 64%*/
+    float: left;
+}
+
+#conteudo_secundario{
+    width: 30%; /*180px -> 36%*/
+    float: right;
+    background-color: #d1d1d1;
+    padding:0 10px;
+}
+
+#navegacao{
+    width: 23%; /*180 -> 25%*/ 
+    border: solid 1px red;
+    /*180 + 520 = 700 + 20 (padding) = Largura total do container*/
+    float: left;
+    text-align: center;
+    background: #d1d1d1;
+
+}
+
+#navegacao ul{
+   list-style: none;
+}
+
+#navegacao li a{
+    text-decoration: underline;
+    color: black;
+    
+}
+
+#rodape{
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;    
+}
