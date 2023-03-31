@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style64.css">
+    <title>Estilizando formulários</title>
+</head>
+<body>
+    
+        <h2>Estilizando Formulários</h2>
+        <form>
+            <fieldset><!--São ulitizados para agrupar dados semelhantes-->
+               <legend>Detalhes do contato</legend><!--Legenda do agrupamento-->     
+
+               <div>
+                <label for="nome">Nome:</label><!--Etiqueta ou rótulo, servida para identificar caixas-->
+                <input type="text" name="nome" id="nome">
+               </div>
+            
+               <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+               </div>
+
+               <div>
+                <label for="url">URL:</label>
+                <input type="url" name="url" id="url">
+               </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Comentários</legend>
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                </div>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Lembrar de mim</legend>
+                <div >
+                    <label   for="sim">
+                        <input  class="radio" type="radio" name="lembrar" id="sim">Sim
+                    </label>
+                  
+
+                    <label  for="nao">
+                        <input class="radio" type="radio" name="lembrar" id="nao">Não
+                    </label>
+                  
+                </div>
+            </fieldset>
+        </form>
+
+
+
+</body>
+</html>
