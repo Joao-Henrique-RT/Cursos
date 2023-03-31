@@ -1,0 +1,42 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+table{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    border-collapse: collapse; /*Deste jeito as bordas ficam unidas, mas mantendo o mesmo tamanho da borda*/
+}
+
+th, td{
+    
+    padding: 10px;
+}
+
+th{
+    text-transform: uppercase; /*Para deixar todas as letras maiúsculas*/
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    font-size: 90%;
+    letter-spacing: 0.1em; /*Para dar um espaçamento estre as letras*/
+}
+
+tr.alternado{
+    background-color: #efefef;
+}
+
+tr:hover{
+    background-color: rgba(1, 100, 165, 0.582);
+}
+
+.numero{
+    text-align: right;
+}
+
+
+
