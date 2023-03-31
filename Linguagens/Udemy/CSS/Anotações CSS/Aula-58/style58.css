@@ -7,9 +7,9 @@ body{
 }
 
 #container {
-    width: 720px;
+    width: 920px;
     margin: 10px auto 0px auto; /*Para deixar a div centralizada*/
-    background: #fff;
+    background: #fff url(imgs/coluna.png) repeat-y left top ;
 }
 
 #marca{
