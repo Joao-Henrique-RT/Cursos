@@ -1,0 +1,67 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #643d87 url(imgs/fundo.jpg) no-repeat top center;
+}
+
+#container{
+    width: 400px;
+    height: 300px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#container img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+   
+}
+
+input{
+    padding-left: 2.5rem;
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input[type="email"]{
+    background-image: url(imgs/icone-usuario.png) ;
+}
+
+input[type="password"]{
+    background-image: url(imgs/icone-cadeado.png);
+}
+
+.botao{
+    margin-top: 15px;
+    padding: 0;
+    cursor: pointer;
+    background-color: #f79300;
+    color: #fff;
+    border: 1px solid #db7d00;
+    height: 50px;
+    width: 90%;
+    background: linear-gradient(to bottom, #faa600, #f68a00);
+
+    /*Para funcionar em Navegadores mais antigos*/
+    background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+    background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+    background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+
+
+
+}
+
+
+
