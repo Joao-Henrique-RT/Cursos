@@ -1,0 +1,10 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+header{
+    height: 300px;
+    border: solid 1px red;
+    background: url(imagens/cidade.jpg);
+}
