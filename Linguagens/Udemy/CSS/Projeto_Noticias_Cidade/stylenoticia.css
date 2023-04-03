@@ -6,5 +6,12 @@ body{
 header{
     height: 300px;
     border: solid 1px red;
-    background: url(imagens/cidade.jpg);
+    background: #294c71 url(imagens/fundo.png) bottom repeat-x;
+}
+
+nav{
+    height: 200px;
+    margin: 0 auto;
+    width: 600px;
+    border: 1px solid red;
 }
