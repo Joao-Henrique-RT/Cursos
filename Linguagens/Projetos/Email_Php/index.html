@@ -1,30 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Envio de emails</title>
-</head>
-<body>
-    
+    <style>
+        #formulario{
+            width: 300px;
+            border: 1px solid red;
+        }
+
+    </style>
+  </head>
+  <body>
     <form action="" method="post">
-        <label for="nome">digite seu nome:</label>
-        <input type="text" name="" id="nome">
+      <div id="formulario">
+        <div id="nome">
+          <label for="nome">digite seu nome:</label>
+          <input type="text" name="" id="nome" />
+        </div>
 
-        <label for="sobrenome">Digite seu sobrenome</label>
-        <input type="text" name="" id=" sobrenome">
+        <div id="sobrenome">
+          <label for="sobrenome">Digite seu sobrenome</label>
+          <input type="text" name="" id=" sobrenome" />
+        </div>
 
-        <label for="email">Digite seu email</label>
-        <input type="email" name="" id="email">
+        <div id="email">
+          <label for="email">Digite seu email</label>
+          <input type="email" name="" id="email" />
+        </div>
 
-        <label for="texto">Digite seu texto</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-
-        <input type="submit" value="Enviar">
+        <div id="texto">
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          
+        </div>
+        <input type="submit" value="Enviar" />
+      </div>
     </form>
-
-
-
-</body>
+  </body>
 </html>
