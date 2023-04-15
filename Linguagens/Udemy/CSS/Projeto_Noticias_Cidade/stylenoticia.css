@@ -1,6 +1,11 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
+    
+}
+
+.clear{
+    clear: both;
 }
 
 header{
@@ -14,4 +19,47 @@ nav{
     margin: 0 auto;
     width: 600px;
     border: 1px solid red;
+}
+
+/*
+1200/3= 400
+400 - 30 = 370
+*/
+
+.title{
+    background: #294c71;
+    width: 370px;
+}
+
+#conteudo_principal{
+    margin: 0 auto;
+    background: url(imagens/fundo-caixa.png);
+    width: 1200px;
+    height: auto;
+    
+}
+
+#entrevistas{
+    width: 370px;
+    height: 500px;
+    margin-right: 15px;
+   
+    float: left;
+}
+
+.boxes{
+    float: left;
+    margin: 0px 15px;
+    width: 370px;
+    height: 500px;
+    
+}
+
+.img_conteudo{
+    width: 350px;
+}
+
+.leia{
+    color: red;
+
 }
