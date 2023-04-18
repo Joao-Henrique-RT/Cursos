@@ -16,6 +16,8 @@ header{
 }
 
 nav{
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
     height: 200px;
     margin: 0 auto;
     width: 600px;
@@ -108,6 +110,7 @@ input{
     color: white;
     background-color: rgba(245, 32, 32, 0.911);
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .white{
@@ -115,6 +118,14 @@ input{
     background-color: white;
     width: 350px;
     height: 400px;
+}
+
+#img_topo{
+   
+}
+
+#logo{
+    
 }
 
 
