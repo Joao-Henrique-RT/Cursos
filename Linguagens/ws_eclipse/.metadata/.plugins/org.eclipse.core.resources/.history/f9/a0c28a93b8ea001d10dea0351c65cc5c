@@ -66,8 +66,8 @@ public class Anotacoes {
 	
 	/*Quando uma função faz uma ação sem retornar um valor 
 	 * dizemos que o tipo da função é vazio "void"*/
-	public static void showResult(int value){//value poderia ser qualquer nome
-		System.out.println("O maior número é: "+ value);
+	public static void showResult(){//value poderia ser qualquer nome
+		System.out.println("O maior número é: ");
 	}
 
 }
