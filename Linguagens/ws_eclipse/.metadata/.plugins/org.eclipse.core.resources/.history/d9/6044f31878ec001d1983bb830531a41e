@@ -1,0 +1,66 @@
+package topicos_java;
+
+import java.util.Scanner;
+
+public class Soma {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Soma.executar();
+		
+	}
+	
+	public static void executar() {
+		Scanner leia = new Scanner(System.in);
+		
+		System.out.println("Digite um número");
+		
+		int num1 = leia.nextInt();
+		
+		System.out.println("Digite o segundo número");
+		
+		int num2 = leia.nextInt();
+		
+		int resultado = soma(num1,num2);
+		
+		
+		//O método shoResult pegou o valor de resultado e irá imprimir a mensagem conforme o método criado
+		showResult(resultado);
+		
+		leia.close();
+		
+	}
+	
+	public static int soma(int a, int b) {
+		//Método publico que fará a ação de somar os dois atributos (a e b poderiam ser quaisquer outros nomes;
+		int resultado = (a + b);
+		
+		return resultado;
+		
+	}
+	
+	public static void showResult(int resultado) {
+		//método publico que fará a ação de mostrar o resultado na tela (value poderia ser qualquer nome);
+		
+		System.out.println("O resultado é: " + resultado);
+	}
+	
+	public static int maior(int a, int b) {
+		//Método público que irá mostrar qual dos dois númerosé maior
+		
+		int aux;
+		
+		if(a > b) {
+			
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

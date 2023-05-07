@@ -1,0 +1,27 @@
+package topicos_java;
+
+import java.util.Scanner;
+
+public class Soma {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Soma.executar();
+		
+	}
+	
+	public static void executar() {
+		Scanner leia = new Scanner(System.in);
+		
+		System.out.println("Digite um número");
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}
