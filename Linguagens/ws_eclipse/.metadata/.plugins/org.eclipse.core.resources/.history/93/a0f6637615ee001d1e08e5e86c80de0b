@@ -4,7 +4,6 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Square;
 import entities.Triangle;
 
 public class Program {
@@ -14,10 +13,9 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner leia = new Scanner(System.in);
 		
-		/*
 		Triangle x,y;
-		x = new Triangle(); //instancia!
-		y = new Triangle(); //instancia!
+		x = new Triangle();
+		y = new Triangle();
 		
 		System.out.println("Enter the measures of triangle X: ");
 		x.a = leia.nextDouble();
@@ -48,22 +46,7 @@ public class Program {
 			System.out.println("Larger area: Y ");
 		}
 		
-		*/
 		
-		Square lado1, lado2;
-		lado1 = new Square();//instanciado 
-		lado2 = new Square();//instanciado
-		
-		
-		System.out.println("Digite um lado do quadrado");
-		lado1.a = leia.nextDouble();
-		
-		System.out.println("digite o outro lado do quadrado");
-		lado2.b = leia.nextDouble();
-		
-		double areaSquare = (lado1.a * lado2.b);  
-		
-		System.out.println("O resultado é: " + areaSquare);
 		leia.close();
 		
 	}
