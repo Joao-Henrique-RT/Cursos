@@ -7,9 +7,5 @@ public class Square {
 		public double a;
 		public double b;
 	
-		public double areaSquare() {
-			double area = (a * b);
-			return area;
-		}
 
 }

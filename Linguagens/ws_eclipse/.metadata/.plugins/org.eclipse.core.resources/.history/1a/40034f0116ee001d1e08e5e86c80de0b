@@ -21,22 +21,6 @@ public class Triangle {
 		public double b; //atributo!
 		public double c; //atributo!
 		
-		public double area() {
-			double p = (a + b + c)/2.0;
-			double area = Math.sqrt(p*(p - a )* (p - b) * (p  - c));
-			return area;
-		}
-		
-		
 }
 
-/*
- * CLASSE É A DEFINIÇAÕ DO TIPO
- * 
- * OBJETOS SÃO INSTANCIAS DA CLASSE;
- * 
- * 
- * 
- * 
- * 
- * */
+
