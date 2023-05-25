@@ -12,7 +12,7 @@ public class Employee { //funcionário
 	}
 	
 	public double increaseSalary(double percentage) { //percentage  será atribuida no programa
-		return grossSalary += (grossSalary * percentage)/100;
+		return grossSalary += grossSalary * percentage/100;
 	}
 	
 	public String toString() {

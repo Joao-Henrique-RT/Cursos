@@ -29,10 +29,11 @@ public class Program {
 		
 		System.out.println("Which percentage to increase salary?");	
 		double percentage = leia.nextDouble();
+		employee.increaseSalary(percentage);
 		
-		System.out.println("updated data: " + employee.name + ",  $ " + employee.increaseSalary(percentage));
+		System.out.println("updated data: " + employee);
 		
-		
+		leia.close();
 	}
 
 }
