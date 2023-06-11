@@ -1,9 +1,0 @@
-*{
-    box-sizing: border-box;
-}
-
-.centralizar{
-    display: flex;
-    justify-content: center;
-    
-}
