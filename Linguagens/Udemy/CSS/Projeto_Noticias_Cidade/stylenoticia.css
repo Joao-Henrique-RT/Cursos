@@ -20,7 +20,7 @@ nav{
     padding-top: 25px;
     height: 200px;
     margin: 0 auto;
-    width: 600px;
+    width: 1000px;
     border: 1px solid red;
 }
 
@@ -128,4 +128,34 @@ input{
     
 }
 
+#navegacao{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.link_nav {
+    
+    margin-top: 30px;
+}
+
+.link_nav li{
+    float: left;
+    background-color: red;
+    margin: 2px;
+}
+
+.link_nav a{
+    font-size: 0.9rem;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 1.1em;
+    text-decoration: none;
+    color: white;
+}
+
+.link_nav a:hover{
+    color: black;
+}
 
