@@ -1,0 +1,19 @@
+@font-face{/*Para adicionar uma nova fonte*/
+    font-family: "Baristo"; /*Definindo o nome da fonte, um nome de sua escolha*/
+    src:url(Baristo.woff); /*Caminho de onde está a fonte*/
+}
+@font-face {
+    font-family: "Super Bubble";
+    src: url(SuperBubble.woff);
+}
+
+h1{
+    font-size: 1.6em;
+    font-family: "Baristo";
+}
+
+h2{
+    font-family: "Super Bubble";
+    font-size: 1.6em;
+}
+
