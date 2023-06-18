@@ -1,0 +1,63 @@
+#caixa{
+    width: 300px;
+    height: 300px;
+    /* background: url("camera.png"); */
+
+    /*Com a propriedade linear podemos escolher o ponto de partida e as cores*/
+    background: linear-gradient(to top, #CCC ,red, blue, green, black);
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#caixa2{
+    width: 300px;
+    height: 300px;
+    /* background: url("camera.png"); */
+
+    /*Com a propriedade linear podemos escolher o ponto de partida e as cores*/
+    background: linear-gradient(to right, #CCC ,red, blue, green, black);
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#caixa3{
+    width: 300px;
+    height: 300px;
+    /* background: url("camera.png"); */
+
+    /*Com a propriedade linear podemos escolher o ponto de partida e as cores*/
+    background: linear-gradient(to left, #CCC ,red, blue, green, black);
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#caixa4{
+    width: 300px;
+    height: 300px;
+    /* background: url("camera.png"); */
+
+    /*Com a propriedade linear podemos escolher o ponto de partida e as cores*/
+    background: linear-gradient(to bottom, #CCC ,red, blue, green, black);
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#caixa5{
+    width: 300px;
+    height: 300px;
+    /* background: url("camera.png"); */
+
+    /*Com a propriedade radil podemos escolher as cores, que se dispõem de maneira circular*/
+
+    /*30 deg = 30 graus*/
+    background: radial-gradient(blue, yellow, green);
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#caixa h1{
+    /*ALém de colocarmos as cores padrão e hexacecimais podemos colocar em formato RGB, há diversos sites mostrando quais códigos para utilizarmos uma cor*/
+    background-color: rgba(255, 255, 255, 0);
+    /*0.5 na propriedade rgba diz sobre a opacidade aonde 0 é sem cor e 1 é cor total*/
+}
