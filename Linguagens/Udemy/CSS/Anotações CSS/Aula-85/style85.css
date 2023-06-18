@@ -1,0 +1,53 @@
+.clear{
+    clear: both;
+}
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    background-color: #b9c941;
+    /*Utilizando padding a largura da caixa fica maior do que definimos anteriormente, agora a caixa possui 300px + 10px + 10px = 320px*/
+    padding: 10px;
+    margin: 10px;
+    /*Propriedade utilizada para arredondar cantos, medida em quantidade de pixels, aonde 200px forma um circulo perfeito*/
+    border-radius: 200px;
+    float: left;
+
+    /*Esta propriedade faz com que o padding não adicione mais tamannho a caixa do que o já estabelecido, mesmo com o padding a caixa irá ter 300px neste caso*/
+    box-sizing: border-box;
+    /*Prefixos para navegadores antigos*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.arredondamento{
+    /*Como a imagem tem 300px ela ficará num circulo perfeito*/
+    border-radius: 150px;
+}
+
+#caixa2{
+    width: 320px;
+    height: 300px;
+    background-color: brown;
+    margin: 10px;
+    float: left;
+    border-radius: 10px 50px 80px 100px; /*medidas agem como margin e padding aonde o primeiro valro corresponde pelo valor de cima, direita, baixo e esquerda, respectivamente*/
+    
+}
+
+/*Alguns navegadores não suportam a propriedade border-radius
+Para isso, precisamos utilizar prefixos*/   
+
+#caixa3{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 20px 90px;
+
+    /*Criação de prefixos para navegadores mais antigos*/
+    -webkit-border-radius: 20px 90px;
+    -moz-border-radius: 20px 90px;
+
+}
