@@ -1,0 +1,33 @@
+/*Keyframes indica que queremos iniciar uma animação, o nome ao lado pode ser qualquer um, srve apenas para identificar*/
+
+@keyframes animacao-caixa{
+    from{
+        background:blue;
+        border-radius: 0px;
+        top: 0px;
+        left: 0px;
+    }/*De onde, qual estilo irá começar*/
+
+    to{
+        background:aqua;
+        border-radius: 300px;
+        top: 20px;
+        left: 20px;
+
+    }/*Para, indica a formatação final da animação*/
+}
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: blue;
+    animation-name: animacao-caixa; /*Chamando a animação*/
+    animation-duration: 5s; /*Duração do efeito*/
+    animation-delay: 1; /*Tempo de espera para começar a animação*/
+    animation-iteration-count: 2;/*Quantas vezes a animação será executada*/
+    animation-direction: alternate;/*Faz a animação e volta a forma original com animação*/
+
+    /*animation: animacao-caixa, 5s, 3s, 2, alternate;*/
+    
+
+}
