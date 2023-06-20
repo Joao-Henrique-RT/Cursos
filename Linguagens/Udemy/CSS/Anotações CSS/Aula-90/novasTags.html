@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novas tags HTML</title>
     <link rel="stylesheet" href="style90.css">
+
+    <!--[if lt IE 9]>
+	<script src="html5shiv.js"></script>
+    <![endif]-->
+
+     <!--Este bloco de comenado serve para o navegador Intert Explorer, em versões anteriores a 9, consigam interpretar as novas tagas do HTML5 (nav, footer, aside, header, etc)-->   
+
 </head>
 <body>
     
@@ -13,6 +20,7 @@
     <header>
         <h1>Logo</h1>
         <span>Meu site</span>
+        <h1>Header</h1>
     </header><!--Cabeçalho-->
 
     <nav>
@@ -20,11 +28,45 @@
             <li><a href="">Home</a></li>
             <li><a href="">Contato</a></li>
             <li><a href="">Sobre</a></li>
+            <li><h1>nav</h1></li>
         </ul>
     </nav><!--Navegação-->
 
+    <article>
+        <h3>Novos Cursos</h3>
+
+        <section>
+            <h4>Curso de Programação</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad architecto ex, odio numquam corporis temporibus expedita laborum veritatis libero molestias rerum similique, quasi veniam nihil necessitatibus delectus dicta excepturi magni!
+            </p>
+        </section><!--Tag para dividir sessões no site-->
+
+        <section>
+
+            <h4>Curso de photoshop</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis eligendi soluta possimus aliquid dolorum, excepturi impedit vel nisi ea, commodi debitis dignissimos. Expedita distinctio voluptas vero reiciendis quod eum.
+            </p>
+            
+            <span>
+                Atualizado em:
+                <time>19/06/2023</time><!--Serve para datas-->
+            </span>
+        
+            <aside>
+                <h3>
+                    Sobre o autor
+                </h3>
+            </aside><!--Traduzin do "Ao lado", serve para conteúdos laterais do site, como banners, propagadas etc.-->
+
+        </section>
+    </article><!--Conteúdos de postagens-->
+
+
     <footer>
         <p>&copy; Direitos reservados 2023, João Henrique</p>
+        <h1>footer</h1>
     </footer><!--Rodapé-->
 </body>
 </html>

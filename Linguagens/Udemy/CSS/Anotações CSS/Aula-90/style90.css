@@ -1,0 +1,28 @@
+header, nav, footer, article, section{
+    border: solid 2px red;
+}
+
+header{
+    background-color: aqua;
+}
+
+nav{
+    background-color: green;
+}
+
+footer{
+    background-color: orange;
+}
+
+article{
+    background-color: purple;
+}
+
+section{
+    background-color: brown;
+    margin: 20px;
+}
+
+aside{
+    background-color: blue;
+}
