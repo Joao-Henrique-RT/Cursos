@@ -1,0 +1,78 @@
+#conteudo{
+    background: #dcdcdc;
+    height: 600px;
+    padding: 10px;
+    display: flex;
+
+    /*
+    row | row-reverse | column | column-reverse
+    */
+
+   /* flex-direction: row;   valor padrão*/
+   
+   /*
+   flex-direction: row;
+    */
+
+   /*nowrap | wrap | wrap-reverse*/
+   /*
+   flex-wrap: nowrap; /*Não deixa quabra de linhas*/
+    
+    
+    /*propriedade WRAP faz com que os itens se disponham de forma que sempre terá espaço para eles, movendo para baixo.*/
+
+    /*
+    flex-start (padrão, esquerda)| flex-end (Direita) | center (centro, horizontal) | space-between (espaço entre, os itens das pontas ficam colados nas extremidades)| space-around (Os itens das extremidades não ficam colados)
+    */
+    /*
+    justify-content: space-around;
+    */
+
+    /*
+    stretch (esticado, padrão, os itens irão preencher toda a altura do container)| center (centralidados, vertical) | flex-start (postados na parte superior) | flex-end (postados na parte inferior)| baseline (utiliza a linha de base como parametro)
+    */
+    /*
+    align-items: flex-start;
+    */
+    
+}
+
+.item{
+    background: white;
+    border: 1px solid gray;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.item1{
+    /*Define a proporção de espaço ocupada por um item*/
+    flex-grow: 0;
+
+    /*Define a capacidade de redução de tamanho do item*/
+    flex-shrink: 1;
+
+    /*Indica o tamanho inicial do flex item antes da distribuição do espaço restante*/
+    flex-basis: auto;
+
+}
+
+.item2{
+    /*Define a proporção de espaço ocupada por um item*/
+    
+    flex-shrink: 2;
+}
+
+.item3{
+    /*Define a proporção de espaço ocupada por um item*/
+    /*QUanto maior o número, mais espaço ele ocupa*/
+    
+    flex-shrink: 5;
+}
+
+/*Ordem de exibição com display flex*/
+.ordem1{
+    order: 1;
+}
+
