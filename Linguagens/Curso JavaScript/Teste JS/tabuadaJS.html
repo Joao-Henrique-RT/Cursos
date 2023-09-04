@@ -5,29 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabuada JS</title>
+    <style>
+        .container{
+            background-color: aqua;
+            width: 200px;
+
+        }
+
+        .result{
+            background-color: red;
+            height: 100px;
+            width: 200px;
+        }
+
+    </style>
 </head>
-
-<script>
-    function teste(){
-    /*let salario = document.getElementById("salario").value;
-    let Novo_salario = salario*2;
-    let Salario_desc = salario-50;
-
-    document.getElementById("Meu_salario").innerHTML = "Seu novo salário é: "+ Novo_salario;
-    document.getElementById("Salario_mod").innerHTML = "Seu salario com desconto : "+ Salario_desc;  */
-    for(let tab= 1; tab==10; tab++){
-        alert(tab);
-    }
-    }
-
-
-
-</script>
 <body>
-    <input type="text" name="" id="salario" placeholder="1200">
-    <p id="Meu_salario"></p>
-    <p id="Salario_mod"></p>
-<button onclick="teste()">Teste</button>
+   <div class="container">
+        <label for="num1">Digite o primeiro número</label>
+        <input type="number" id="num1">
+            <br>
+        <label for="num2">Digite o segundo número</label>
+        <input type="number" id="num2">
+        <button class="resultado" onclick="resultado(num1.value, num2.value)">Resultado</button>
+
+    </div>
+        <div class="result">
+           <textarea name="" id="resultado" cols="30" rows="10"></textarea>
+        </div>
+
 
 </body>
+    
+    <script>
+        
+        function resultado(num1, num2){
+            i = 0
+            while(i<=num2){
+                result = (num1*i)
+                
+                document.getElementById("resultado").innerHTML=(num1 + "X" + i + "=" + result )
+
+                i++
+
+                //falta fazer com que este loop fique completo dentro o text AREA
+            }
+
+
+        }
+    
+    
+    
+    </script>
 </html>
