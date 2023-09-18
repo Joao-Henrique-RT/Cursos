@@ -7,10 +7,42 @@
 
     <link rel="stylesheet" href="/bootstrap4/css/bootstrap.min.css">
 
+    <style>
+        body{
+            width: 400px;
+            height: 700px;
+            background-color: aqua;
+        }
 
+        p{
+            background-color: red;
+            margin: 10px;
+            color: white;
+        }
+
+
+    </style>
 
 </head>
 <body>
     <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque voluptatem dolorum quidem fugit minima non eaque est nisi iusto exercitationem sed, distinctio facere laboriosam. Molestias eligendi ipsam sint nemo.</p>
+
+   <!--
+    tipos de telas:
+     1200px = xl
+     992px =  lg
+     768px = md
+     576px = sm
+   -->
+
+   <p class="text-sm-right">Tamanho de texto 576px</p>
+   <p class="text-md-right">Tamanho de texto 768px</p>
+   <p class="text-lg-right">tamanho de texto 992px</p>
+   <p class="text-xl-right">Tamanho de texto 1200px</p>
+
+<!--Elemento block para inline-->
+    <h1 class="bg-success d-inline">Olá mundo</h1>
+    <p class="bg-success d-block">Sucesso!</p>
+    <p class="bg-success d-inline-block">Sucesso!</p>
 </body>
 </html>

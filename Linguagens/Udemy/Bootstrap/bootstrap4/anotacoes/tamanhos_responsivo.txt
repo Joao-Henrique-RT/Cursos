@@ -1,0 +1,4 @@
+tamanho Extra large - para monitores maiores >= 1200px = xl
+tamanho large para monitores menores e notebooks >= 992px = lg
+tamanho medium para tablets ou celulares maiores >= 768px = md 
+tamanho small para celulares >= 576px = sm
