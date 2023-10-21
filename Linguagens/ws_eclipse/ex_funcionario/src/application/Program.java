@@ -25,7 +25,7 @@ public class Program {
 		System.out.println("Digite a taxa de desconto: ");
 		employee.tax = leia.nextDouble();
 		
-		System.out.println(employee.toString());
+		System.out.println(employee.netSalary());
 		
 		System.out.println("Which percentage to increase salary?");	
 		double percentage = leia.nextDouble();
