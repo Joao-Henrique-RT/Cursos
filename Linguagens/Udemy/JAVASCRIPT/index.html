@@ -5,7 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript</title>
 </head>
+
+<style>
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    
+}
+
+.campos{
+    
+    margin: 0 auto;
+    background-color: red;
+    width: 200px;
+
+}
+
+
+</style>
+
+
 <body>
     <h1>Curso de JavaScript</h1>
+
+    <div class="container">
+
+        <div class="campos">
+            <label for="login">Login</label>
+            <input type="text" name="login" id="login">
+
+
+            
+            <label for="senha">Senha</label>    
+            <input type="password" name="senha" id="senha">
+
+            <button onclick="logar()">Entrar</button>
+        </div>
+    </div>    
+
+
 </body>
 </html>
+
+<script>
+    //comentários de uma linha
+    /*
+    Comentários em bloco
+    */
+
+    
+    function logar(){
+        var login = "joão"
+        var senha = 1234
+
+        var campo_Login = document.getElementById("login").value
+        var campo_Senha = document.getElementById("senha").value
+
+        //Estrutura que compara a senha que o usuário digitou com o login e senha reais, em caso de exito na comparação, a página será redirecionada, senão , serão limpos os campos
+        if(campo_Login == login && campo_Senha == senha){
+          window.location      
+        }
+    }
+    
+
+
+
+
+</script>
