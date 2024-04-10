@@ -1,0 +1,30 @@
+*{
+ font-family: Arial, Helvetica, sans-serif  ;   
+}
+
+
+#container{/*CRIAÇÃO DO CONTAINER PARA CADASTRO*/
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#cadastro{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    text-align: center;
+}
+
+label{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+button{
+    margin: 20px;
+}
