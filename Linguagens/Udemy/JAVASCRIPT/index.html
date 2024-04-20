@@ -8,7 +8,8 @@
 
 <body>
     <h1>Curso de JavaScript</h1>    
-
+    <audio src="botafogo-radio-globo.mp3"></audio>
+    <button style="background-color: black; color: white; cursor: pointer; height: 500px; width: 100%;">Botafogo!</button>
 
 </body>
 </html>
@@ -19,13 +20,16 @@
     Comentários em bloco
     */
 
-    var teste = null
+   
+   const button = document.querySelector('button')
+   button.addEventListener('click', function(){
+       const audio = document.querySelector('audio')
+       audio.volume = 0.2
+       audio.play()
+       
+    })
 
 
-    teste = 20
-
-    console.log(teste)
-  
-
+   
 
 </script>
