@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+    
+    <script>
+    //FUNÇÕES DE CALLBACK SÃO FUNÇÕES ANINHADAS, AONDE EXISTE UMA FUNÇÃO PARA DETERMINADO CASO E OUTRA FUNÇÃO PARA SER CHAMADA DENTRO DELA CASO DETERMINADA SITUAÇÃO APRESENTE UM ERRO
+
+    function exibirArtigo(id, callbackSucesso, callbackErro){
+        //lógica: recuperar o id via requisição http
+
+        if (false){
+            callbackSucesso("Funções de callBack em JS", "Funções em JS são legais ")
+        } else{
+            callbackErro("Erro")
+        }
+
+    }
+
+    var callbackSucesso = function(titulo, descricao){
+        document.write("<h1>"+ titulo + " </h1>")
+        document.write("<br/>")
+        document.write("<h1>"+ descricao +" </h1>")
+    }
+
+    var callbackErro = function(erro){
+        document.write("<p>Erro: "+ erro + "</p>")
+    }
+
+    //cuidado ao passar o parametro, quando a função está dentro de uma variavel, nós não declaramos ela com parenteses
+    exibirArtigo(1, callbackSucesso, callbackErro)
+
+
+
+    </script>
+
+<body>
+
+</body>
+</html>
