@@ -19,6 +19,7 @@ public class Employee { //funcionário
 		return "Employee: " +
 				name + 
 				",  $ " +
+				
 				String.format("%.2f", netSalary());
 	}
 	

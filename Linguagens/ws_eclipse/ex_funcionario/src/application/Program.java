@@ -14,24 +14,25 @@ public class Program {
 		
 		Employee employee = new Employee();
 		
-		Scanner leia = new Scanner(System.in);
+		Scanner leia = new Scanner(System.in); //Metodo Scanner para inserção de dados pelo usuário
 		
 		System.out.println("Digite seu nome: ");
-		employee.name = leia.next();
+		employee.name = leia.next(); //NOME FUNC
 		
 		System.out.println("Digite seu salário bruto: ");
-		employee.grossSalary = leia.nextDouble();
+		employee.grossSalary = leia.nextDouble(); //SALARIO BRUTO
 		
 		System.out.println("Digite a taxa de desconto: ");
 		employee.tax = leia.nextDouble();
 		
-		System.out.println(employee.netSalary());
+		System.out.println(employee.netSalary()); //SALARIO LIQUIDO
 		
 		System.out.println("Which percentage to increase salary?");	
 		double percentage = leia.nextDouble();
 		employee.increaseSalary(percentage);
 		
 		System.out.println("updated data: " + employee);
+		
 		
 		leia.close();
 	}
