@@ -8,33 +8,36 @@
 </head>
 
     <script>    
-        var num1 = prompt("1º Número")
-        var operacao = prompt("Digite a operação (soma)(subtracao)")
-        var num2 = prompt("2º Número")
+        // var num1 = prompt("1º Número")
+        // var operacao = prompt("Digite a operação (soma)(subtracao)")
+        // var num2 = prompt("2º Número")
         
         
         function calcular(){
-            var resultado
-            if(operacao == "soma"){
-                resultado =  num1 + num2
+        //   var resultado
+        //     if(operacao == "soma"){
+        //         resultado =  num1 + num2
                
-            } else if("subtracao"){
-                 resultado = num1 - num2
-            } else{
-                document.write("Erro ao executar")
-            }
+        //     } else if("subtracao"){
+        //          resultado = num1 - num2
+        //     } else{
+        //         document.write("Erro ao executar")
+        //     }
 
-            return resultado 
-        }
+        //     return resultado 
+         }
 
-        document.write("<h1>"+ calcular() + " </h1>")
+       return alert("botao clicado")
         
     </script>
 
 <body>
     
+    <input type="number" name="" id="num1">
+    <input type="number" name="" id="num2">
+    <button id="calculo" onclick="calcular()">Calcular!</button>
 
-    
+
 
 
 
