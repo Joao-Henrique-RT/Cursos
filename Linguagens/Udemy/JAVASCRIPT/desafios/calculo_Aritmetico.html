@@ -8,21 +8,32 @@
 </head>
 
     <script>    
-        var num1 = prompt("Digite o primeiro número")
-        var num2 = prompt("Digite o segundo número")
+        var num1 = prompt("1º Número")
         var operacao = prompt("Digite a operação (soma)(subtracao)")
-    
-        function calcular(operacao, num1, num2){
-           
+        var num2 = prompt("2º Número")
+        
+        
+        function calcular(){
+            var resultado
+            if(operacao == "soma"){
+                resultado =  num1 + num2
+               
+            } else if("subtracao"){
+                 resultado = num1 - num2
+            } else{
+                document.write("Erro ao executar")
+            }
+
+            return resultado 
         }
 
-
-
-        calcular()
+        document.write("<h1>"+ calcular() + " </h1>")
         
     </script>
 
 <body>
+    
+
     
 
 
