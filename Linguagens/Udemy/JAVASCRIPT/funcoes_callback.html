@@ -13,31 +13,34 @@
         //lógica: recuperar o id via requisição http
 
         if (true){
-            callbackSucesso("Funções de callBack em JS", "Funções em JS são legais ")
+            callbackSucesso("Deu tudo certo", "parabéns, o que voce fez deu certo usando funções de callback", "img/nike.jpg")    
         } else{
-            callbackErro("Erro")
+           callbackErro("Deu tudo errado", "deu tudo errado porque voce nao fez nada certo")
         }
 
     }
 
-    var callbackSucesso = function(titulo, descricao){
-        document.write("<h1>"+ titulo + " </h1>")
-        document.write("<br/>")
-        document.write("<h1>"+ descricao +" </h1>")
+    var callbackSucesso = function(titulo, descricao, imagem){    
+        document.write("<h1>" + titulo + "</h1>")
+        document.write("<h1>" + descricao + "</h1>")
+        document.write("<img src=" + imagem + ">")
+
     }
 
-    var callbackErro = function(erro){
-        document.write("<p>Erro: "+ erro + "</p>")
+    var callbackErro = function(titulo, descricao){
+        document.write("<h1>" + titulo + "</h1>")
+        document.write("<h1>" + descricao + "</h1>")
     }
 
-    //cuidado ao passar o parametro, quando a função está dentro de uma variavel, nós não declaramos ela com parenteses
-    exibirArtigo(1, callbackSucesso, callbackErro)
+    exibirArtigo('1', callbackSucesso, callbackErro)
 
+
+   
 
 
     </script>
 
 <body>
-
+    
 </body>
 </html>
