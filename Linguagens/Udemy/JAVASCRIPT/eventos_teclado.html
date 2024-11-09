@@ -5,19 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos Mouse</title>
 </head>
-<script>
-    function acao(){
-        alert("evento disparado")
-        //Eventos de teclado:
-        /*
-        onkeydown = acionado quando uma tecla é pressionado
-        onkeyup = acionado quando a tecla é liberada
-        onkeypress = aciona quando a tecla é mantida pressionada (apenas com teclas que representam caracteres)
-        */
-    }
-
-</script>
 <body>
-    <input onkeyup="acao()" type="text" name="" id="">
+    
+    <input type="text" id="campo">
+    <button onclick="verificarCaractere()">Verificar</button>
+
+
+
+
 </body>
+    <script>
+        function verificarCaractere(){
+          var caractere =  document.getElementById("campo").value
+         caractere =  parseFloat(caractere)
+          
+           if(typeof caractere === 'number'){
+            document.write("Você digitou um número")
+            
+           } else{
+            document.write("Você digitou uma letra ou simbolo")
+           }
+
+
+            setTimeout(function() {
+            location.reload();  // Atualiza a página
+            }, 5000);
+        }
+
+        
+    
+    </script>
 </html>
