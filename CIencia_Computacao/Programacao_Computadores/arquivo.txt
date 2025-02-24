@@ -1,0 +1,1 @@
+Ptyhon também tem uns problemas de achar diretórios no windows

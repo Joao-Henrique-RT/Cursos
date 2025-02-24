@@ -23,3 +23,25 @@
 #     print("Número é impar")
 
 
+
+# dados = open(r"CIencia_Computacao\Programacao_Computadores\arquivo.txt", "w", encoding='UTF-8')
+
+# dados.write("Ptyhon também tem uns problemas de achar diretórios no windows");
+
+# conteudo = dados
+
+# print(conteudo)
+
+# dados.close()
+
+def criar_arquivo(nome_arquivo, conteudo):
+    try:
+        with open(nome_arquivo, "w") as arquivo:
+            arquivo.write(conteudo)
+            print("Arquivo criado com sucesso!")
+    except:
+        print("Erro ao criar arquivo", Exception)  
+
+
+criar_arquivo("Escrita.txt", "Escrevi no arquivo")              
+
