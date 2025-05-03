@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+        
+    <input type="text" name="" id="valor">
+    <button type="submit" onclick="Calcular()">Calcular</button><br>
+
+<script>
+     var valor = Number(document.querySelector("#valor").value)
+     var valorUSD = valor/5.66
+     var valorEUR = valor/6.40
+
+    
+
+    function Calcular(){
+    
+    //Este conversor NÃO utiliza nenhuma API, valores de 03/05/25
+
+    document.writeln(`Seu valor em Reais: ${valor.toLocaleString('pt-BR', {style:"currency", currency:'BRL'})}<br>`)
+
+    document.writeln(`Seu valor em Dolár: ${valorUSD.toLocaleString('pt-BR', {style:"currency", currency:'USD'})}<br>`)
+
+    document.write(`Seu valor em Euro: ${valorEUR.toLocaleString('pt-BR', {style:"currency", currency:'EUR'})}`)
+
+    
+    }
+    
+  
+
+</script>
+</body>
+</html>
