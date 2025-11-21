@@ -25,6 +25,15 @@ header input{
     font-size: 1em;     
 }
 
+#btn{
+    margin-left: 10px;;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: rgb(128, 128, 128);
+    border-radius: 25px;
+}
+
+
 i{
     cursor: pointer;
     
@@ -32,6 +41,31 @@ i{
 
 i:hover{
     color: #555;
-    transition: 0.5s;
+    transition: 0.3s;
     font-size: 15px;
 }
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.fa-check{
+    width: 10%;
+}
+
+.fa-trash{
+    color: red;
+    width: 10%;
+}
+
+
+
+li:hover{
+    background-color: #5c68663d;
+}
+
+
